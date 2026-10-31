@@ -1,13 +1,13 @@
 # 🐺 Wolframium
 
 <div align="center">
-![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![discord.py](https://img.shields.io/badge/discord.py-5865F2?style=for-the-badge&logo=discord&logoColor=white)
-![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge&logo=pydantic&logoColor=white)
-![License](https://img.shields.io/badge/License-AGPL%20v3-blue?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-MVP%20em%20andamento-yellow?style=for-the-badge)
-**Uma caixa de ferramentas completa para RPG de mesa no Discord.**
-Fichas dinâmicas · Rolagens inteligentes · Combate automatizado · Geração de conteúdo · Imersão sonora · Play-Solo
+  <img src="https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&amp;logo=python&amp;logoColor=white" alt="Python 3.11+" />
+  <img src="https://img.shields.io/badge/discord.py-5865F2?style=for-the-badge&amp;logo=discord&amp;logoColor=white" alt="discord.py" />
+  <img src="https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge&amp;logo=pydantic&amp;logoColor=white" alt="Pydantic" />
+  <img src="https://img.shields.io/badge/License-AGPL%20v3-blue?style=for-the-badge" alt="License AGPL v3" />
+  <img src="https://img.shields.io/badge/Status-MVP%20em%20andamento-yellow?style=for-the-badge" alt="Status: MVP em andamento" />
+  <p><strong>Uma caixa de ferramentas completa para RPG de mesa no Discord.</strong><br />
+  Fichas dinâmicas · Rolagens inteligentes · Combate automatizado · Geração de conteúdo · Imersão sonora · Play-Solo</p>
 </div>
 
 ---
@@ -161,7 +161,7 @@ O projeto está em **desenvolvimento ativo**, na fase de MVP. O que já funciona
 
 ```bash
 # 1. Clonar
-git clone https://github.com/MarcosMakosu/Wolframium.git
+git clone https://github.com/Aviario-net/Projeto_Bot_RPGs.git
 cd Wolframium
 # 2. Criar ambiente virtual
 python -m venv .venv
@@ -259,12 +259,24 @@ Desenvolvido com 💙 por [**MarcosMakosu**](https://github.com/MarcosMakosu) 
 
 ## 🏆 Contributors
 
-<div align="center"> <a href="https://github.com/MarcosMakosu/Wolframium/graphs/contributors"> <img src="https://contrib.rocks/image?repo=MarcosMakosu/Wolframium" /> </a>
-
-[https://img.shields.io/github/contributors/MarcosMakosu/Wolframium?style=for-the-badge&color=blue](https://img.shields.io/github/contributors/MarcosMakosu/Wolframium?style=for-the-badge&color=blue)  
-[https://img.shields.io/github/last-commit/MarcosMakosu/Wolframium?style=for-the-badge&color=green](https://img.shields.io/github/last-commit/MarcosMakosu/Wolframium?style=for-the-badge&color=green)  
-[https://img.shields.io/github/issues/MarcosMakosu/Wolframium?style=for-the-badge&color=orange](https://img.shields.io/github/issues/MarcosMakosu/Wolframium?style=for-the-badge&color=orange)  
-[https://img.shields.io/github/stars/MarcosMakosu/Wolframium?style=for-the-badge&color=yellow](https://img.shields.io/github/stars/MarcosMakosu/Wolframium?style=for-the-badge&color=yellow)  
-[https://img.shields.io/github/forks/MarcosMakosu/Wolframium?style=for-the-badge&color=purple](https://img.shields.io/github/forks/MarcosMakosu/Wolframium?style=for-the-badge&color=purple)
-
+<div align="center">
+  <a href="https://github.com/Aviario-net/Projeto_Bot_RPGs/graphs/contributors">
+    <img src="https://contrib.rocks/image?repo=Aviario-net/Projeto_Bot_RPGs" alt="Contributors" />
+  </a>
+  <br />
+  <a href="https://github.com/Aviario-net/Projeto_Bot_RPGs/graphs/contributors">
+    <img src="https://img.shields.io/github/contributors/Aviario-net/Projeto_Bot_RPGs?style=for-the-badge&amp;color=blue" alt="Contributors" />
+  </a>
+  <a href="https://github.com/Aviario-net/Projeto_Bot_RPGs/commits/">
+    <img src="https://img.shields.io/github/last-commit/Aviario-net/Projeto_Bot_RPGs?style=for-the-badge&amp;color=green" alt="Last commit" />
+  </a>
+  <a href="https://github.com/Aviario-net/Projeto_Bot_RPGs/issues">
+    <img src="https://img.shields.io/github/issues/Aviario-net/Projeto_Bot_RPGs?style=for-the-badge&amp;color=orange" alt="Issues" />
+  </a>
+  <a href="https://github.com/Aviario-net/Projeto_Bot_RPGs/stargazers">
+    <img src="https://img.shields.io/github/stars/Aviario-net/Projeto_Bot_RPGs?style=for-the-badge&amp;color=yellow" alt="Stars" />
+  </a>
+  <a href="https://github.com/Aviario-net/Projeto_Bot_RPGs/network/members">
+    <img src="https://img.shields.io/github/forks/Aviario-net/Projeto_Bot_RPGs?style=for-the-badge&amp;color=purple" alt="Forks" />
+  </a>
 </div> 
