@@ -1,4 +1,5 @@
 # 🐺 Wolframium
+
 <div align="center">
 ![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![discord.py](https://img.shields.io/badge/discord.py-5865F2?style=for-the-badge&logo=discord&logoColor=white)
@@ -8,7 +9,9 @@
 **Uma caixa de ferramentas completa para RPG de mesa no Discord.**
 Fichas dinâmicas · Rolagens inteligentes · Combate automatizado · Geração de conteúdo · Imersão sonora · Play-Solo
 </div>
+
 ---
+
 ## 👥 Desenvolvido por
 <div align="center">
 <table>
@@ -34,12 +37,15 @@ Fichas dinâmicas · Rolagens inteligentes · Combate automatizado · Geração 
   </tr>
 </table>
 </div>
+
 ---
+
 ## 📖 Sobre o Projeto
 **Wolframium** é um bot de Discord pensado para ser o *canivete suíço* de mestres e jogadores de RPG de mesa. Ele centraliza fichas, rolagens, combate, inventário, geração aleatória e imersão em um único lugar — eliminando planilhas externas e reduzindo erros durante a sessão.
 Construído em **Python** com arquitetura modular (cogs + features + rules puros), priorizando **evolução incremental**: um MVP sólido primeiro, recursos avançados depois. Tudo é desenhado para escalar de "uma mesa de amigos" para "várias campanhas simultâneas" sem refatoração.
 
 ---
+
 ## 🚦 Status atual
 O projeto está em **desenvolvimento ativo**, na fase de MVP. O que já funciona hoje:
 
@@ -118,7 +124,7 @@ O projeto está em **desenvolvimento ativo**, na fase de MVP. O que já funciona
 ### 🔌 Integrações
 - 📅 APIs: **Open5e · D&D 5e API · Pathfinder**
 - 📅 VTTs: **Roll20 · Foundry · Owlbear Rodeo**
----
+
 ## 🛠️ Stack Técnica
 
 🐍 Python 3.11+ → Linguagem principal  
@@ -130,8 +136,6 @@ O projeto está em **desenvolvimento ativo**, na fase de MVP. O que já funciona
 📄 WeasyPrint + Jinja2 → Exportação em PDF (planejado)  
 🗄️ SQLAlchemy + aiosqlite → Banco relacional (planejado, hoje: JSON)  
 🎵 FFmpeg + yt-dlp → Áudio (planejado)
-
-text
 
 ---
 ## 🚀 Roadmap
