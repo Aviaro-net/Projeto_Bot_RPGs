@@ -18,7 +18,6 @@ def _setup_logging() -> None:
 def main() -> None:
     _setup_logging()
     bot = RPGbot()
-    # log_handler=None evita log duplicado (discord.py tem o seu por padrão)
     bot.run(settings.discord_token.get_secret_value(), log_handler=None)
 
 

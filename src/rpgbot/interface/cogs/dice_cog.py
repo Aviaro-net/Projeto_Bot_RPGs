@@ -1,7 +1,7 @@
 # SPDX-License-Identifier: AGPL-3.0-only
 # Copyright (C) 2025 Aviario
 
-"""Comandos de dados no Discord."""
+"""Comandos de dados no Discord. Tem que mexer muito aqui"""
 import discord
 from discord.ext import commands
 
@@ -37,6 +37,7 @@ class DiceCog(commands.Cog):
         name="sorte",
         description="Mostra as probabilidades de uma expressão de dados",
     )
+    # Vou verificar a Calculadora de sorte ainda, ou tu faz mesmo já que deves tá pesquisando
     async def sorte(self, ctx: commands.Context, expressao: str = "1d20") -> None:
         try:
             qty, faces, mod = dice.parse(expressao)

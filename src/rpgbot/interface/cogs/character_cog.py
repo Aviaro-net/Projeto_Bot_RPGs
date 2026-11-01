@@ -12,7 +12,7 @@ from rpgbot.features.character.service import CharacterService
 
 
 class EditarFichaModal(discord.ui.Modal, title="Editar Ficha"):
-    """Modal com 5 campos (limite do Discord)."""
+    """Modal com 5 campos (limite do Discord). Fazer mais Modais, não sei se dá certo 👍"""
 
     nome = discord.ui.TextInput(label="Nome", max_length=60)
     raca = discord.ui.TextInput(label="Raça", max_length=40)

@@ -10,6 +10,7 @@ Sintaxe suportada:
     NdM-B       com modificador negativo  (ex: 1d20-2)
 
 O módulo é Python puro: NÃO importa discord nem toca em banco.
+depois tu dá uma inclementada com o que tu fizestes
 """
 import random  # r
 import re  # r-e

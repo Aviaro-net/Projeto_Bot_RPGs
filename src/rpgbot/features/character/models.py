@@ -6,7 +6,7 @@ from pydantic import BaseModel, ConfigDict, Field
 
 
 class Attributes(BaseModel):
-    """Os 6 atributos padrão de D&D 5e."""
+    """Os 6 atributos padrão do D&D."""
 
     forca: int = Field(default=10, ge=1, le=30)
     destreza: int = Field(default=10, ge=1, le=30)
@@ -15,7 +15,7 @@ class Attributes(BaseModel):
     sabedoria: int = Field(default=10, ge=1, le=30)
     carisma: int = Field(default=10, ge=1, le=30)
 
-
+# por enquanto eu fiz ser funcional
 class HitPoints(BaseModel):
     """Pontos de vida."""
 
@@ -26,7 +26,8 @@ class HitPoints(BaseModel):
 class Character(BaseModel):
     """Ficha de personagem."""
 
-    model_config = ConfigDict(extra="allow")  # aceita campos extras
+    model_config = ConfigDict(extra="allow")  
+    # Fazer os campos extras
 
     nome: str = "Aventureiro"
     raca: str = "Humano"

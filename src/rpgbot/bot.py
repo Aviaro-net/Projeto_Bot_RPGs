@@ -13,11 +13,11 @@ logger = logging.getLogger(__name__)
 
 
 class RPGbot(commands.Bot):
-    """Bot do Wolframium."""
+    """Wolframium."""
 
     def __init__(self) -> None:
         intents = discord.Intents.default()
-        intents.message_content = True  # necessário para comandos "!"
+        intents.message_content = True
 
         super().__init__(
             command_prefix="!",
@@ -26,11 +26,9 @@ class RPGbot(commands.Bot):
         )
 
     async def setup_hook(self) -> None:
-        # Carrega os cogs (interface)
         await self.load_extension("rpgbot.interface.cogs.dice_cog")
         await self.load_extension("rpgbot.interface.cogs.character_cog")
 
-        # Sync dos slash commands
         if settings.env == "development" and settings.dev_guild_id:
             guild = discord.Object(id=settings.dev_guild_id)
             self.tree.copy_global_to(guild=guild)

@@ -21,19 +21,15 @@ class Settings(BaseSettings):
         extra="ignore",
     )
 
-    # ── Discord ────────────────────────────────────
     discord_token: SecretStr
     discord_owner_id: int
     dev_guild_id: int | None = None
 
-    # ── Ambiente ───────────────────────────────────
     env: Literal["development", "staging", "production"] = "development"
     log_level: str = "INFO"
 
-    # ── Banco (usado na etapa 3) ───────────────────
     database_url: str = "sqlite+aiosqlite:///data/db.sqlite"
 
-    # ── Caminhos derivados ─────────────────────────
     data_dir: Path = Field(default=Path("data"))
 
 
